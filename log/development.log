@@ -1,0 +1,1601 @@
+Started GET "/" for 127.0.0.1 at 2021-08-26 13:56:22 +0700
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 12.1ms | Allocations: 596)
+Completed 200 OK in 145ms (Views: 104.7ms | ActiveRecord: 0.0ms | Allocations: 4730)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-26 13:57:09 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.5ms | Allocations: 261)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 1517)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-26 13:57:46 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 45)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 451)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-26 13:57:47 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 46)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 413)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-26 13:57:48 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 45)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 405)
+
+
+Started GET "/abc" for 127.0.0.1 at 2021-08-26 14:31:38 +0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#abc as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/abc.html.erb within layouts/application
+  Rendered main/abc.html.erb within layouts/application (Duration: 0.5ms | Allocations: 359)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/poomsci/class2/public/packs
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 2905ms
+Built at: 08/26/2021 2:31:43 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5159.2ms | Allocations: 14798)
+Completed 200 OK in 5171ms (Views: 5166.2ms | ActiveRecord: 0.0ms | Allocations: 18340)
+
+
+Started GET "/abc" for 127.0.0.1 at 2021-08-26 14:33:37 +0700
+Processing by MainController#abc as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/abc.html.erb within layouts/application
+  Rendered main/abc.html.erb within layouts/application (Duration: 0.2ms | Allocations: 142)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 3346)
+Completed 200 OK in 6ms (Views: 4.8ms | Allocations: 4707)
+
+
+Started GET "/def" for 127.0.0.1 at 2021-08-26 14:33:41 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/def"):
+  
+Started GET "/" for 127.0.0.1 at 2021-08-26 14:40:28 +0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.1ms | Allocations: 490)
+Completed 200 OK in 28ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 3621)
+
+
+Started GET "/ab" for 127.0.0.1 at 2021-08-26 14:40:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/ab"):
+  
+Started GET "/abc" for 127.0.0.1 at 2021-08-26 14:40:33 +0700
+Processing by MainController#abc as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/abc.html.erb within layouts/application
+  Rendered main/abc.html.erb within layouts/application (Duration: 2.6ms | Allocations: 144)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.6ms | Allocations: 5756)
+Completed 200 OK in 56ms (Views: 55.6ms | ActiveRecord: 0.0ms | Allocations: 7088)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-26 14:54:40 +0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.4ms | Allocations: 490)
+Completed 200 OK in 33ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 3743)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 14:54:45 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/" for 127.0.0.1 at 2021-08-26 14:57:59 +0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.6ms | Allocations: 490)
+Completed 200 OK in 25ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 3743)
+
+
+Started GET "/abc" for 127.0.0.1 at 2021-08-26 14:58:02 +0700
+Processing by MainController#abc as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/abc.html.erb within layouts/application
+  Rendered main/abc.html.erb within layouts/application (Duration: 0.2ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 5737)
+Completed 200 OK in 20ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 7145)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 14:58:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/wecome" for 127.0.0.1 at 2021-08-26 14:59:04 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3066)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 3721)
+
+
+Started GET "/wecome" for 127.0.0.1 at 2021-08-26 14:59:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/wecome"):
+  
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 14:59:12 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3127)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 3907)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:00:58 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 142)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3377)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 4816)
+
+
+Started GET "/contact_us" for 127.0.0.1 at 2021-08-26 15:01:06 +0700
+Processing by MainController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/contact.html.erb within layouts/application
+  Rendered main/contact.html.erb within layouts/application (Duration: 0.4ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2930)
+Completed 200 OK in 7ms (Views: 6.3ms | Allocations: 3544)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:04:12 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2887)
+Completed 200 OK in 9ms (Views: 8.8ms | Allocations: 3274)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:07:26 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 3383)
+Completed 200 OK in 6ms (Views: 4.8ms | Allocations: 4846)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:07:42 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 168)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3432)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 4797)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:07:52 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.3ms | Allocations: 173)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3404)
+Completed 200 OK in 14ms (Views: 13.2ms | Allocations: 4769)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:08:19 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 1.9ms | Allocations: 4350)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 4424)
+Completed 500 Internal Server Error in 14ms (Allocations: 5763)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `i' for #<ActionView::Base:0x0000000000a398>
+Did you mean?  @@id):
+    2: <p>hello from welcome<p>
+    3: <p>Find me in app/views/main/def.html.erb</p>
+    4: 
+    5: <%= (1..6).to_a.each( put(i)) %>
+  
+app/views/main/welcome.html.erb:5
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:08:27 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 2.4ms | Allocations: 4288)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 4362)
+Completed 500 Internal Server Error in 9ms (Allocations: 5693)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `i' for #<ActionView::Base:0x0000000000a7f8>
+Did you mean?  @@id):
+    2: <p>hello from welcome<p>
+    3: <p>Find me in app/views/main/def.html.erb</p>
+    4: 
+    5: <%= (1..6).to_a.each( puts(i)) %>
+  
+app/views/main/welcome.html.erb:5
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:09:36 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1188)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 1263)
+Completed 500 Internal Server Error in 16ms (Allocations: 2598)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Main#welcome</h1>
+<p>hello from welcome<p>
+<p>Find me in app/views/main/def.html.erb</p>
+
+<%= (1..6).to_a %>
+
+<%= for i in 1..10 do%>
+<%= i*10%>
+<%=end%>
+):
+1:    <h1>Main#welcome</h1>
+2:    <p>hello from welcome<p>
+3:    <p>Find me in app/views/main/def.html.erb</p>
+4:    
+5:    <%= (1..6).to_a %>
+6:    
+7:    <%= for i in 1..10 do%>
+8:    <%= i*10%>
+9:    <%=end%>
+  
+app/views/main/welcome.html.erb:9: syntax error, unexpected `end'
+app/views/main/welcome.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/main/welcome.html.erb:9: syntax error, unexpected `end'
+app/views/main/welcome.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/main/welcome.html.erb:9: syntax error, unexpected `end'
+app/views/main/welcome.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/main/welcome.html.erb:9: syntax error, unexpected `end'
+app/views/main/welcome.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/main/welcome.html.erb:9: syntax error, unexpected `end'
+app/views/main/welcome.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/main/welcome.html.erb:9: syntax error, unexpected `end'
+app/views/main/welcome.html.erb:11: syntax error, unexpected `end', expecting ')'
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:09:46 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.8ms | Allocations: 237)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 3478)
+Completed 200 OK in 22ms (Views: 20.6ms | Allocations: 4855)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:09:53 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.5ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 3473)
+Completed 200 OK in 16ms (Views: 15.5ms | Allocations: 4870)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:09:59 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.6ms | Allocations: 245)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3476)
+Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 4841)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:10:05 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.6ms | Allocations: 245)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3476)
+Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 4841)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:13:18 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.4ms | Allocations: 269)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 3500)
+Completed 200 OK in 24ms (Views: 22.8ms | Allocations: 4897)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:13:48 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.7ms | Allocations: 269)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 3500)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 4897)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:14:10 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.5ms | Allocations: 272)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3513)
+Completed 200 OK in 18ms (Views: 17.8ms | Allocations: 4916)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:14:15 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.4ms | Allocations: 270)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3501)
+Completed 200 OK in 15ms (Views: 14.5ms | Allocations: 4866)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:14:54 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.5ms | Allocations: 356)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 3597)
+Completed 200 OK in 21ms (Views: 20.0ms | Allocations: 4999)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:15:09 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.4ms | Allocations: 317)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 3548)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 4913)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:15:57 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.6ms | Allocations: 318)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3549)
+Completed 200 OK in 15ms (Views: 14.5ms | Allocations: 4914)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:16:07 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.5ms | Allocations: 318)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3549)
+Completed 200 OK in 16ms (Views: 15.1ms | Allocations: 4946)
+
+
+Started GET "/welcome?123" for 127.0.0.1 at 2021-08-26 15:16:25 +0700
+Processing by MainController#welcome as HTML
+  Parameters: {"123"=>nil}
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2903)
+Completed 200 OK in 6ms (Views: 5.1ms | Allocations: 3390)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:16:30 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2903)
+Completed 200 OK in 15ms (Views: 14.6ms | Allocations: 3344)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:16:53 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2911)
+Completed 200 OK in 9ms (Views: 8.9ms | Allocations: 3351)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-26 15:18:11 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.8ms | Allocations: 264)
+Completed 200 OK in 5ms (Views: 3.7ms | Allocations: 1216)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:19:45 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.3ms | Allocations: 122)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3171)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 3973)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:20:05 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2928)
+Completed 200 OK in 10ms (Views: 9.6ms | Allocations: 3433)
+
+
+Started GET "/welcome?123" for 127.0.0.1 at 2021-08-26 15:20:35 +0700
+Processing by MainController#welcome as HTML
+  Parameters: {"123"=>nil}
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2925)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 3381)
+
+
+Started GET "/welcome?a=1?b=2" for 127.0.0.1 at 2021-08-26 15:20:44 +0700
+Processing by MainController#welcome as HTML
+  Parameters: {"a"=>"1?b=2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2903)
+Completed 200 OK in 7ms (Views: 6.7ms | Allocations: 3359)
+
+
+Started GET "/welcome?a=1&b=2" for 127.0.0.1 at 2021-08-26 15:21:12 +0700
+Processing by MainController#welcome as HTML
+  Parameters: {"a"=>"1", "b"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2913)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 3367)
+
+
+Started GET "/welcome?a=1&b=2&c=123" for 127.0.0.1 at 2021-08-26 15:21:23 +0700
+Processing by MainController#welcome as HTML
+  Parameters: {"a"=>"1", "b"=>"2", "c"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2911)
+Completed 200 OK in 12ms (Views: 11.3ms | Allocations: 3363)
+
+
+Started GET "/welcome?a=1&b=2&c=123" for 127.0.0.1 at 2021-08-26 15:22:50 +0700
+Processing by MainController#welcome as HTML
+  Parameters: {"a"=>"1", "b"=>"2", "c"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2004)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2078)
+Completed 500 Internal Server Error in 9ms (Allocations: 3442)
+
+
+  
+ActionView::Template::Error (undefined method `a' for #<ActionController::Parameters {"a"=>"1", "b"=>"2", "c"=>"123", "controller"=>"main", "action"=>"welcome"} permitted: false>):
+    17: <br/>
+    18: The current <b>time</b> is <%= Time.zone.now %>
+    19: <br/>
+    20: hello <%= params.a%>
+  
+app/views/main/welcome.html.erb:20
+Started GET "/welcome?a=1&b=2&c=123" for 127.0.0.1 at 2021-08-26 15:22:57 +0700
+Processing by MainController#welcome as HTML
+  Parameters: {"a"=>"1", "b"=>"2", "c"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.7ms | Allocations: 341)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3580)
+Completed 200 OK in 15ms (Views: 13.8ms | Allocations: 4969)
+
+
+Started GET "/welcome?a=eiei" for 127.0.0.1 at 2021-08-26 15:23:02 +0700
+Processing by MainController#welcome as HTML
+  Parameters: {"a"=>"eiei"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2931)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 3433)
+
+
+Started GET "/welcome?a=eiei" for 127.0.0.1 at 2021-08-26 15:23:15 +0700
+Processing by MainController#welcome as HTML
+  Parameters: {"a"=>"eiei"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2906)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 3360)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 15:43:54 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2907)
+Completed 200 OK in 14ms (Views: 13.0ms | Allocations: 3362)
+
+
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:48:39 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 2.2ms | Allocations: 4337)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 4411)
+Completed 500 Internal Server Error in 9ms (Allocations: 5851)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `a' for #<ActionView::Base:0x0000000000ed08>
+Did you mean?  @a):
+    1: <h1>Ex2#loop</h1>
+    2: <p>Find me in app/views/ex2/loop.html.erb</p>
+    3: 
+    4: a is <%=a%> , b is <%=b%>
+  
+app/views/ex2/loop.html.erb:4
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:48:55 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.3ms | Allocations: 177)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.3ms | Allocations: 12518)
+Completed 200 OK in 62ms (Views: 61.6ms | Allocations: 13909)
+
+
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:50:22 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+Completed 500 Internal Server Error in 8ms (Allocations: 1944)
+
+
+  
+NoMethodError (undefined method `instance_of' for "123":String
+Did you mean?  instance_of?):
+  
+app/controllers/ex2_controller.rb:5:in `loop'
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:50:28 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+Completed 500 Internal Server Error in 2ms (Allocations: 3266)
+
+
+  
+NameError (undefined local variable or method `a' for #<Ex2Controller:0x00000000011300>
+Did you mean?  @a):
+  
+app/controllers/ex2_controller.rb:5:in `loop'
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:51:14 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+Completed 500 Internal Server Error in 12ms (Allocations: 3246)
+
+
+  
+NameError (undefined local variable or method `a' for #<Ex2Controller:0x00000000012570>
+Did you mean?  @a):
+  
+app/controllers/ex2_controller.rb:5:in `loop'
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:51:17 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3182)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 3973)
+
+
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:51:29 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3174)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 3968)
+
+
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:51:40 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 59)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 3183)
+Completed 200 OK in 26ms (Views: 22.9ms | Allocations: 3979)
+
+
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:51:49 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 3153)
+Completed 200 OK in 18ms (Views: 4.2ms | Allocations: 3947)
+
+
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:51:55 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3182)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 3975)
+
+
+Started GET "/loop?a=aa" for 127.0.0.1 at 2021-08-26 15:53:48 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"aa"}
+Completed 500 Internal Server Error in 0ms (Allocations: 626)
+
+
+  
+ArgumentError (invalid value for Integer(): "aa"):
+  
+app/controllers/ex2_controller.rb:3:in `Integer'
+app/controllers/ex2_controller.rb:3:in `loop'
+Started GET "/loop?a=aa" for 127.0.0.1 at 2021-08-26 15:54:44 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+    try:     # try block
+       ^
+/home/poomsci/class2/app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+except:  # optionally: `except Excep...
+      ^
+):
+  
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+Started GET "/loop?a=aa" for 127.0.0.1 at 2021-08-26 15:54:51 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+    try:     # try block
+       ^
+/home/poomsci/class2/app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+except:  # optionally: `except Excep...
+      ^
+/home/poomsci/class2/app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/loop?a=aa" for 127.0.0.1 at 2021-08-26 15:55:07 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+    try:     # try block
+       ^
+/home/poomsci/class2/app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+    except:  # optionally: `except Excep...
+          ^
+/home/poomsci/class2/app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/loop?a=aa" for 127.0.0.1 at 2021-08-26 15:55:18 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+    try:     # try block
+       ^
+/home/poomsci/class2/app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+    except:  # optionally: `except Excep...
+          ^
+/home/poomsci/class2/app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/loop?a=aa" for 127.0.0.1 at 2021-08-26 15:55:57 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/loop?a=aa" for 127.0.0.1 at 2021-08-26 15:56:15 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/loop?a=aa" for 127.0.0.1 at 2021-08-26 15:56:24 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/loop?a=aa" for 127.0.0.1 at 2021-08-26 15:56:39 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/loop?a=aa" for 127.0.0.1 at 2021-08-26 15:56:49 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/loop?a=aa" for 127.0.0.1 at 2021-08-26 15:56:55 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:56:58 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:58:13 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:18: syntax error, unexpected end-of-input, expecting `end'
+Started POST "/__web_console/repl_sessions/8322f1bb2e020a067565ac883ede0505/trace" for 127.0.0.1 at 2021-08-26 15:58:16 +0700
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 15:59:38 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:11: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/ex2_controller.rb:11: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/abc" for 127.0.0.1 at 2021-08-26 15:59:59 +0700
+Processing by MainController#abc as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/abc.html.erb within layouts/application
+  Rendered main/abc.html.erb within layouts/application (Duration: 0.2ms | Allocations: 146)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3259)
+Completed 200 OK in 10ms (Views: 9.5ms | Allocations: 4407)
+
+
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 16:00:11 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:7: syntax error, unexpected ':'
+    begin:     # try block
+         ^
+/home/poomsci/class2/app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+    except:  # optionally: `except Excep...
+          ^
+):
+  
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 16:00:19 +0700
+  
+SyntaxError (/home/poomsci/class2/app/controllers/ex2_controller.rb:7: syntax error, unexpected ':'
+    begin:     # try block
+         ^
+/home/poomsci/class2/app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+    except:  # optionally: `except Excep...
+          ^
+):
+  
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/ex2_controller.rb:7: syntax error, unexpected ':'
+app/controllers/ex2_controller.rb:11: syntax error, unexpected ':', expecting `end'
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 16:00:51 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.3ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 3161)
+Completed 200 OK in 20ms (Views: 19.2ms | Allocations: 3961)
+
+
+Started GET "/loop?a=eiei" for 127.0.0.1 at 2021-08-26 16:00:56 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"eiei"}
+Completed 500 Internal Server Error in 0ms (Allocations: 620)
+
+
+  
+ArgumentError (invalid value for Integer(): "eiei"):
+  
+app/controllers/ex2_controller.rb:3:in `Integer'
+app/controllers/ex2_controller.rb:3:in `loop'
+Started GET "/loop?a=eiei" for 127.0.0.1 at 2021-08-26 16:01:23 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"eiei"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 57)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 3119)
+Completed 200 OK in 17ms (Views: 16.0ms | Allocations: 4195)
+
+
+Started GET "/loop?a=eiei" for 127.0.0.1 at 2021-08-26 16:01:34 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"eiei"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 57)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 3119)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 4217)
+
+
+Started GET "/loop?a=eiei&b=123" for 127.0.0.1 at 2021-08-26 16:01:49 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"eiei", "b"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 3112)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 4208)
+
+
+Started GET "/loop?a=eiei&b=123" for 127.0.0.1 at 2021-08-26 16:03:47 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"eiei", "b"=>"123"}
+Completed 500 Internal Server Error in 5ms (Allocations: 2684)
+
+
+  
+NameError (uninitialized constant Ex2Controller::ErrorClass):
+  
+app/controllers/ex2_controller.rb:6:in `rescue in loop'
+app/controllers/ex2_controller.rb:4:in `loop'
+Started GET "/loop?a=eiei&b=123" for 127.0.0.1 at 2021-08-26 16:04:06 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"eiei", "b"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 3120)
+Completed 200 OK in 19ms (Views: 18.2ms | Allocations: 4225)
+
+
+Started GET "/loop?a=eiei&b=123" for 127.0.0.1 at 2021-08-26 16:05:34 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"eiei", "b"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 3112)
+Completed 200 OK in 5ms (Views: 3.9ms | Allocations: 4183)
+
+
+Started GET "/loop?a=eiei&b=123" for 127.0.0.1 at 2021-08-26 16:05:49 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"eiei", "b"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1096)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1171)
+Completed 500 Internal Server Error in 7ms (Allocations: 2855)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Ex2#loop</h1>
+<p>Find me in app/views/ex2/loop.html.erb</p>
+
+a is <%=@a%> , b is <%=@b%>
+<% if err puts err%>
+
+):
+1:    <h1>Ex2#loop</h1>
+2:    <p>Find me in app/views/ex2/loop.html.erb</p>
+3:    
+4:    a is <%=@a%> , b is <%=@b%>
+5:    <% if err puts err%>
+  
+app/views/ex2/loop.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/ex2/loop.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/ex2/loop.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/ex2/loop.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/ex2/loop.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+app/views/ex2/loop.html.erb:7: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/loop?a=eiei&b=123" for 127.0.0.1 at 2021-08-26 16:05:55 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"eiei", "b"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1093)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1168)
+Completed 500 Internal Server Error in 5ms (Allocations: 2818)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Ex2#loop</h1>
+<p>Find me in app/views/ex2/loop.html.erb</p>
+
+a is <%=@a%> , b is <%=@b%>
+<% if @err puts err%>
+
+):
+1:    <h1>Ex2#loop</h1>
+2:    <p>Find me in app/views/ex2/loop.html.erb</p>
+3:    
+4:    a is <%=@a%> , b is <%=@b%>
+5:    <% if @err puts err%>
+  
+app/views/ex2/loop.html.erb:5: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 16:06:14 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1093)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1168)
+Completed 500 Internal Server Error in 5ms (Allocations: 2820)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Ex2#loop</h1>
+<p>Find me in app/views/ex2/loop.html.erb</p>
+
+a is <%=@a%> , b is <%=@b%>
+<% =puts @err%>
+
+):
+1:    <h1>Ex2#loop</h1>
+2:    <p>Find me in app/views/ex2/loop.html.erb</p>
+3:    
+4:    a is <%=@a%> , b is <%=@b%>
+5:    <% =puts @err%>
+  
+app/views/ex2/loop.html.erb:5: syntax error, unexpected '=', expecting `end'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected '=', expecting `end'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected '=', expecting `end'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected '=', expecting `end'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected '=', expecting `end'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected '=', expecting `end'
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 16:06:25 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.8ms | Allocations: 192)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3425)
+Completed 200 OK in 17ms (Views: 15.8ms | Allocations: 5119)
+
+
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 16:07:18 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1099)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 1174)
+Completed 500 Internal Server Error in 8ms (Allocations: 2848)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Ex2#loop</h1>
+<p>Find me in app/views/ex2/loop.html.erb</p>
+
+a is <%=@a%> , b is <%=@b%>
+<%= defined?(@err)?a%>
+
+):
+1:    <h1>Ex2#loop</h1>
+2:    <p>Find me in app/views/ex2/loop.html.erb</p>
+3:    
+4:    a is <%=@a%> , b is <%=@b%>
+5:    <%= defined?(@err)?a%>
+  
+app/views/ex2/loop.html.erb:5: syntax error, unexpected ')', expecting ':'
+app/views/ex2/loop.html.erb:8: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected ')', expecting ':'
+app/views/ex2/loop.html.erb:8: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected ')', expecting ':'
+app/views/ex2/loop.html.erb:8: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected ')', expecting ':'
+app/views/ex2/loop.html.erb:8: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected ')', expecting ':'
+app/views/ex2/loop.html.erb:8: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:5: syntax error, unexpected ')', expecting ':'
+app/views/ex2/loop.html.erb:8: syntax error, unexpected `end', expecting ')'
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 16:07:25 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 2.5ms | Allocations: 4305)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 4379)
+Completed 500 Internal Server Error in 17ms (Allocations: 6029)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `a' for #<ActionView::Base:0x0000000002ef18>
+Did you mean?  @a):
+    2: <p>Find me in app/views/ex2/loop.html.erb</p>
+    3: 
+    4: a is <%=@a%> , b is <%=@b%>
+    5: <%= defined?(@err)&&a%>
+  
+app/views/ex2/loop.html.erb:5
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 16:07:36 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.4ms | Allocations: 193)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3426)
+Completed 200 OK in 22ms (Views: 17.6ms | Allocations: 5120)
+
+
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 16:08:13 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.7ms | Allocations: 196)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 3429)
+Completed 200 OK in 19ms (Views: 18.4ms | Allocations: 5120)
+
+
+Started GET "/loop?a=123" for 127.0.0.1 at 2021-08-26 16:08:42 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.4ms | Allocations: 193)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 3418)
+Completed 200 OK in 16ms (Views: 15.4ms | Allocations: 5103)
+
+
+Started GET "/loop?a=123&b=345" for 127.0.0.1 at 2021-08-26 16:08:51 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"345"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2945)
+Completed 200 OK in 11ms (Views: 10.8ms | Allocations: 3448)
+
+
+Started GET "/loop?a=123&b=345" for 127.0.0.1 at 2021-08-26 16:09:00 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"345"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.4ms | Allocations: 196)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3483)
+Completed 200 OK in 16ms (Views: 15.4ms | Allocations: 4815)
+
+
+Started GET "/loop?a=123&b=345" for 127.0.0.1 at 2021-08-26 16:09:16 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"345"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.3ms | Allocations: 196)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 3483)
+Completed 200 OK in 22ms (Views: 21.5ms | Allocations: 4866)
+
+
+Started GET "/loop?a=123&b=345" for 127.0.0.1 at 2021-08-26 16:09:25 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"345"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 2920)
+Completed 200 OK in 14ms (Views: 13.3ms | Allocations: 3423)
+
+
+Started GET "/loop?a=123&b=345" for 127.0.0.1 at 2021-08-26 16:09:27 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"345"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.3ms | Allocations: 195)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 3494)
+Completed 200 OK in 17ms (Views: 16.6ms | Allocations: 4832)
+
+
+Started GET "/loop?a=123&b=345" for 127.0.0.1 at 2021-08-26 16:09:36 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"345"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.5ms | Allocations: 200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 3495)
+Completed 200 OK in 20ms (Views: 19.6ms | Allocations: 4883)
+
+
+Started GET "/loop?a=123&b=345" for 127.0.0.1 at 2021-08-26 16:09:44 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"345"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.4ms | Allocations: 195)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 3482)
+Completed 200 OK in 26ms (Views: 24.0ms | Allocations: 4864)
+
+
+Started GET "/loop?a=123&b=e" for 127.0.0.1 at 2021-08-26 16:09:47 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"e"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 2857)
+Completed 200 OK in 18ms (Views: 18.0ms | Allocations: 3662)
+
+
+Started GET "/loop?a=123&b=e" for 127.0.0.1 at 2021-08-26 16:10:07 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"e"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.7ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 3415)
+Completed 200 OK in 18ms (Views: 17.7ms | Allocations: 5082)
+
+
+Started GET "/loop?a=123&b=e" for 127.0.0.1 at 2021-08-26 16:10:12 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"e"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.3ms | Allocations: 194)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3419)
+Completed 200 OK in 15ms (Views: 13.9ms | Allocations: 5103)
+
+
+Started GET "/loop?a=123&b=e" for 127.0.0.1 at 2021-08-26 16:10:40 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"e"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.3ms | Allocations: 198)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3434)
+Completed 200 OK in 46ms (Views: 10.8ms | Allocations: 5146)
+
+
+Started GET "/loop?a=123&b=123" for 127.0.0.1 at 2021-08-26 16:10:42 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2925)
+Completed 200 OK in 14ms (Views: 13.8ms | Allocations: 3429)
+
+
+Started GET "/loop?a=123&b=123" for 127.0.0.1 at 2021-08-26 16:11:04 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.3ms | Allocations: 203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 3495)
+Completed 200 OK in 13ms (Views: 12.6ms | Allocations: 4832)
+
+
+Started GET "/loop?a=1&b=10" for 127.0.0.1 at 2021-08-26 16:11:15 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"10"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 56)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2961)
+Completed 200 OK in 8ms (Views: 8.0ms | Allocations: 3464)
+
+
+Started GET "/loop?a=1&b=100" for 127.0.0.1 at 2021-08-26 16:11:21 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"100"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 147)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3027)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 3480)
+
+
+Started GET "/loop?a=1&b=100" for 127.0.0.1 at 2021-08-26 16:12:33 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"100"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1278)
+Completed 500 Internal Server Error in 5ms (Allocations: 2599)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Ex2#loop</h1>
+<p>Find me in app/views/ex2/loop.html.erb</p>
+
+a is <%=@a%> , b is <%=@b%>
+<br/>
+<% if defined?(@err)%>
+	<%= @err%>
+<% else %>
+	<%=% (@a..@b).to_a>
+<%end%>
+):
+1:    <h1>Ex2#loop</h1>
+2:    <p>Find me in app/views/ex2/loop.html.erb</p>
+3:    
+4:    a is <%=@a%> , b is <%=@b%>
+5:    <br/>
+6:    <% if defined?(@err)%>
+7:    	<%= @err%>
+8:    <% else %>
+9:    	<%=% (@a..@b).to_a>
+10:    <%end%>
+  
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+Started GET "/loop?a=1&b=100" for 127.0.0.1 at 2021-08-26 16:12:40 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"100"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1202)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1277)
+Completed 500 Internal Server Error in 6ms (Allocations: 2625)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Ex2#loop</h1>
+<p>Find me in app/views/ex2/loop.html.erb</p>
+
+a is <%=@a%> , b is <%=@b%>
+<br/>
+<% if defined?(@err)%>
+	<%= @err%>
+<% else %>
+	<%=% (@a..@b).to_a>
+<% end %>
+):
+1:    <h1>Ex2#loop</h1>
+2:    <p>Find me in app/views/ex2/loop.html.erb</p>
+3:    
+4:    a is <%=@a%> , b is <%=@b%>
+5:    <br/>
+6:    <% if defined?(@err)%>
+7:    	<%= @err%>
+8:    <% else %>
+9:    	<%=% (@a..@b).to_a>
+10:    <% end %>
+  
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+Started GET "/loop?a=1&b=100" for 127.0.0.1 at 2021-08-26 16:13:01 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"100"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1210)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 1285)
+Completed 500 Internal Server Error in 6ms (Allocations: 2633)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Ex2#loop</h1>
+<p>Find me in app/views/ex2/loop.html.erb</p>
+
+a is <%=@a%> , b is <%=@b%>
+<br/>
+<% if defined?(@err)%>
+	<%= @err%>
+<% else %>
+	<%=% (@a..@b).to_a%>
+<% end %>
+):
+1:    <h1>Ex2#loop</h1>
+2:    <p>Find me in app/views/ex2/loop.html.erb</p>
+3:    
+4:    a is <%=@a%> , b is <%=@b%>
+5:    <br/>
+6:    <% if defined?(@err)%>
+7:    	<%= @err%>
+8:    <% else %>
+9:    	<%=% (@a..@b).to_a%>
+10:    <% end %>
+  
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:10: syntax error, unexpected `end', expecting ')'
+app/views/ex2/loop.html.erb:12: syntax error, unexpected `end', expecting ')'
+Started GET "/loop?a=1&b=100" for 127.0.0.1 at 2021-08-26 16:13:09 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"100"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.6ms | Allocations: 351)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 3646)
+Completed 200 OK in 19ms (Views: 18.7ms | Allocations: 5037)
+
+
+Started GET "/loop?a=1&b=100a" for 127.0.0.1 at 2021-08-26 16:13:15 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"100a"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 2866)
+Completed 200 OK in 25ms (Views: 17.5ms | Allocations: 3672)
+
+
+Started GET "/loop?a=1&b=100a" for 127.0.0.1 at 2021-08-26 16:13:21 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"100a"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.4ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 3443)
+Completed 200 OK in 19ms (Views: 18.1ms | Allocations: 5082)
+
+
+Started GET "/loop?a=1&b=100" for 127.0.0.1 at 2021-08-26 16:13:24 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"100"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 144)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 3024)
+Completed 200 OK in 20ms (Views: 19.2ms | Allocations: 3527)
+
+
+Started GET "/loop?a=1&b=1000" for 127.0.0.1 at 2021-08-26 16:13:53 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"1000"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.2ms | Allocations: 1043)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3923)
+Completed 200 OK in 7ms (Views: 6.7ms | Allocations: 4376)
+
+
+Started GET "/loop?a=1&b=1000a" for 127.0.0.1 at 2021-08-26 16:13:58 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"1000a"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2855)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 3610)
+
+
+Started GET "/loop?a=1&b=1000a" for 127.0.0.1 at 2021-08-26 16:16:00 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"1000a"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 60)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 3125)
+Completed 200 OK in 31ms (Views: 30.7ms | Allocations: 4198)
+
+
+Started GET "/loop?a=1&b=1000a" for 127.0.0.1 at 2021-08-26 16:16:06 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"1000a"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 59)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 3113)
+Completed 200 OK in 5ms (Views: 3.8ms | Allocations: 4205)
+
+
+Started GET "/loop?a=1&b=1000a" for 127.0.0.1 at 2021-08-26 16:16:17 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"1000a"}
+Completed 500 Internal Server Error in 1ms (Allocations: 929)
+
+
+  
+TypeError (no implicit conversion of ArgumentError into String):
+  
+app/controllers/ex2_controller.rb:8:in `+'
+app/controllers/ex2_controller.rb:8:in `rescue in loop'
+app/controllers/ex2_controller.rb:2:in `loop'
+Started GET "/loop?a=1&b=1000a" for 127.0.0.1 at 2021-08-26 16:16:24 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"1000a"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 57)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3119)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 4212)
+
+
+Started GET "/loop?a=1&b=1000a" for 127.0.0.1 at 2021-08-26 16:16:38 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"1000a"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 57)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3119)
+Completed 200 OK in 19ms (Views: 18.5ms | Allocations: 4192)
+
+
+Started GET "/loop?a=1&b=1000a" for 127.0.0.1 at 2021-08-26 16:17:01 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"1000a"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 57)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 3111)
+Completed 200 OK in 16ms (Views: 15.9ms | Allocations: 4205)
+
+
+Started GET "/loop?a=1&b=1000" for 127.0.0.1 at 2021-08-26 16:17:03 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>"1000"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1044)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 3932)
+Completed 200 OK in 15ms (Views: 14.8ms | Allocations: 4434)
+
+
