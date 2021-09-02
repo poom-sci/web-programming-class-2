@@ -10,4 +10,13 @@ class MainController < ApplicationController
 
   def contact
   end
+
+  def post
+    Post.create(user_id:params[:user_id],msg:params[:msg])
+  end
+
+  def read
+    @posts=User.find(params[:user_id]).posts
+    @user=User.find(params[:user_id])
+  end
 end

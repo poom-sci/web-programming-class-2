@@ -14,12 +14,6 @@ class Ex2Controller < ApplicationController
       @err='b is invalid. '+e.to_s
   
     end
-
-
-
-
-
-
   end
   
 end

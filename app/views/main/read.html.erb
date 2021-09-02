@@ -1,0 +1,11 @@
+<h1>Main#def</h1>
+<p>Find me in app/views/main/def.html.erb</p>
+<%=h @user.id %>
+<br/><br/>
+<% for post in @posts %>
+  <tr>
+    <td>msg: <%=h post.msg %></td><br/>
+    <td>postId: <%=h post.id %></td>
+  </tr>
+  <br/><br/>
+<% end %>
