@@ -1599,3 +1599,82 @@ Processing by Ex2Controller#loop as HTML
 Completed 200 OK in 15ms (Views: 14.8ms | Allocations: 4434)
 
 
+Started GET "/loop?a=1&b=" for 127.0.0.1 at 2021-08-26 16:39:12 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 80.0ms | Allocations: 230)
+Started GET "/loop?a=1&b=" for 127.0.0.1 at 2021-08-26 16:39:13 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"1", "b"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1416.8ms | Allocations: 4247)
+Completed 200 OK in 2869ms (Views: 2450.5ms | Allocations: 5552)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5534.0ms | Allocations: 8105)
+Completed 200 OK in 6117ms (Views: 5704.3ms | Allocations: 9311)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-08-26 16:40:20 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 7.6ms | Allocations: 346)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 3452)
+Completed 200 OK in 25ms (Views: 22.8ms | Allocations: 4609)
+
+
+Started GET "/loop?a=123&b=123" for 127.0.0.1 at 2021-08-26 16:40:29 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"123"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2922)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 3421)
+
+
+Started GET "/loop?a=123&b=1" for 127.0.0.1 at 2021-08-26 16:40:32 +0700
+Processing by Ex2Controller#loop as HTML
+  Parameters: {"a"=>"123", "b"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering ex2/loop.html.erb within layouts/application
+  Rendered ex2/loop.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2922)
+Completed 200 OK in 20ms (Views: 18.8ms | Allocations: 3375)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-02 13:09:35 +0700
+Started GET "/" for 127.0.0.1 at 2021-09-02 13:09:35 +0700
+  [1m[35m (4.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendering /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 77.9ms | Allocations: 500)
+  Rendered /home/poomsci/.rvm/gems/ruby-3.0.2@wp/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 78.6ms | Allocations: 409)
+Completed 200 OK in 119ms (Views: 94.9ms | ActiveRecord: 0.0ms | Allocations: 3099)
+
+
+Completed 200 OK in 131ms (Views: 89.5ms | ActiveRecord: 0.0ms | Allocations: 4226)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2021-09-02 13:09:41 +0700
+Processing by MainController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/welcome.html.erb within layouts/application
+  Rendered main/welcome.html.erb within layouts/application (Duration: 2.7ms | Allocations: 430)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 116.6ms | Allocations: 10262)
+Completed 200 OK in 155ms (Views: 153.1ms | ActiveRecord: 0.0ms | Allocations: 12557)
+
+
